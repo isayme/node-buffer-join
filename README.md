@@ -1,2 +1,7 @@
-# node-buffer-join
-join for Buffer
+## `join` function for Buffer
+
+```
+const bufferJoin = require('buffer-join')
+
+bufferJoin([Buffer.from('a'), Buffer.from('b')], Buffer.from(',')).toString() // => a,b
+```
